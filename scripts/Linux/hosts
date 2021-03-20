@@ -1,0 +1,6 @@
+#### A mettre dans /etc/hosts pour resoudre les problemes de hostnames avec Docker:
+
+54.85.56.253 registry-1.docker.io
+34.238.187.50 auth.docker.io
+104.18.125.25 production.cloudflare.docker.com
+169.46.35.50 hyc-dba-base-image-docker-local.artifactory.swg-devops.com

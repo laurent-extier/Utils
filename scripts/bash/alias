@@ -1,0 +1,6 @@
+**** A mettre dans .bashrc:
+
+alias rmai="docker rmi $(docker images -a -q)"
+alias rmac="docker container rm $(docker container ls -aq)"
+alias stac="docker container stop $(docker container ls -aq)"
+alias kiac="docker container kill $(docker container ls -aq)"
